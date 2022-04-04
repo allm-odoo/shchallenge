@@ -1,0 +1,144 @@
+
+@media (max-width: 767.98px) {
+  .o_control_panel .o_calendar_button_today {
+    font-size: 0.7em;
+    line-height: 1.9em;
+  }
+  .o_control_panel .o_calendar_button_today > .o_calendar_text {
+    margin-top: 3px;
+  }
+  .o_calendar_container {
+    -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column;
+  }
+  .o_calendar_container .o_other_calendar_panel {
+    padding: 8px 16px;
+  }
+  .o_calendar_container .o_other_calendar_panel .fa-filter {
+    min-height: 1.59rem;
+    line-height: 1.59rem;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter > span > span {
+    font-size: x-small;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter > span > span:nth-child(1) {
+    font-size: xx-small;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_0 {
+    color: #134E5E;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_1 {
+    color: #F06050;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_2 {
+    color: #F4A460;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_3 {
+    color: #F7CD1F;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_4 {
+    color: #6CC1ED;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_5 {
+    color: #814968;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_6 {
+    color: #EB7E7F;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_7 {
+    color: #2C8397;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_8 {
+    color: #475577;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_9 {
+    color: #D6145F;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_10 {
+    color: #30C381;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_11 {
+    color: #9365B8;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_12 {
+    color: #aa4b6b;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_13 {
+    color: #30C381;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_14 {
+    color: #97743a;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_15 {
+    color: #F7CD1F;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_16 {
+    color: #4285F4;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_17 {
+    color: #8E24AA;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_18 {
+    color: #D6145F;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_19 {
+    color: #173e43;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_20 {
+    color: #348F50;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_21 {
+    color: #AA3A38;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_22 {
+    color: #795548;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_23 {
+    color: #5e0231;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_24 {
+    color: #6be585;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_25 {
+    color: #999966;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_26 {
+    color: #e9d362;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_27 {
+    color: #b56969;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_28 {
+    color: #bdc3c7;
+  }
+  .o_calendar_container .o_other_calendar_panel > .o_filter .o_color_29 {
+    color: #649173;
+  }
+  .o_calendar_container .o_calendar_sidebar_container {
+    flex-grow: 1;
+  }
+  .o_calendar_container .o_calendar_sidebar_container > .o_calendar_sidebar {
+    width: auto;
+  }
+  .o_calendar_view .fc-view.fc-timeGrid-view .fc-axis {
+    padding-left: 0;
+  }
+  .o_calendar_view .fc-view.fc-timeGrid-view .fc-week-number.fc-widget-header {
+    font-weight: normal;
+    white-space: normal;
+  }
+  .o_calendar_view .fc-view:not(.fc-timeGridDay-view) .fc-day-header, .o_calendar_view .fc-view:not(.fc-timeGridDay-view) .fc-week-number.fc-widget-header {
+    word-spacing: 250px;
+    text-align: center;
+  }
+  .o_calendar_view .fc-view.fc-dayGridMonth-view {
+    padding-left: 0;
+  }
+  .o_calendar_view .fc-view.fc-dayGridMonth-view .fc-week-number:not(.fc-widget-header) {
+    background-color: #ced4da;
+    color: #343a40;
+  }
+  .o_calendar_view .fc-more-popover .fc-close {
+    padding: 5px;
+  }
+}
+
