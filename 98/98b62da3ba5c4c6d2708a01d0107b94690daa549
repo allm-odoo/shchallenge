@@ -1,0 +1,76 @@
+
+.o_wesession_index {
+  /*
+     * COMMON
+     */
+  /*
+     * MAIN PAGE: LIST
+     */
+  /*
+     * TRACK PAGE: VIEW
+     */
+}
+
+.o_wesession_index .o_wesession_gradient {
+  background-image: linear-gradient(120deg, #875A7B, #68465f);
+  opacity: 0.8;
+}
+
+.o_wesession_index .o_wesession_track_card .card-body {
+  padding: 1rem;
+}
+
+.o_wesession_index .o_wesession_track_card .card-footer {
+  padding: 0.75rem 1rem;
+}
+
+.o_wesession_index .o_wesession_track_card .o_wesession_track_card_header_badge {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0.75rem 1.25rem;
+  text-align: right;
+}
+
+.o_wesession_index .o_wesession_track_card.o_wesession_track_card_unpublished {
+  opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+  .o_wesession_index .o_wevent_online_page_container .o_wesession_track_main {
+    max-width: calc(100% - 22rem);
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .o_wesession_index .o_wevent_online_page_container .o_wesession_track_main.col-lg-9 {
+    max-width: 75%;
+  }
+  .o_wesession_index .o_wevent_online_page_container .o_wesession_track_main.col-lg-10 {
+    max-width: 83.33333333%;
+  }
+}
+
+@media (min-width: 768px) {
+  .o_wesession_index .o_wevent_online_page_container .o_wesession_track_aside {
+    min-width: 22rem;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .o_wesession_index .o_wevent_online_page_container .o_wesession_track_aside {
+    min-width: auto;
+  }
+}
+
+.o_wesession_index .o_wevent_online_page_container .o_wesession_track_aside .o_wesession_track_aside_nav .nav-link {
+  background-color: transparent;
+  border: 0;
+  color: #6C757D;
+}
+
+.o_wesession_index .o_wevent_online_page_container .o_wesession_track_aside .o_wesession_track_aside_nav .nav-link.active {
+  color: #343A40;
+  font-weight: 500;
+}
+

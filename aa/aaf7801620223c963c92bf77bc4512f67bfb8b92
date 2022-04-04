@@ -1,0 +1,58 @@
+
+.o_event_barcode_bg {
+  height: 100%;
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  -webkit-flex-flow: column nowrap; flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .o_event_barcode_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.o_event_barcode_main {
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  padding: 2em;
+}
+
+.o_event_barcode_main img .o_event_barcode_image {
+  width: 115px;
+  height: 60px;
+}
+
+.o_event_barcode_main .o_event_barcode_company_image {
+  overflow: hidden;
+  margin: 1rem 0 2rem;
+  max-width: 200px;
+  max-height: 100px;
+}
+
+@media (min-width: 768px) {
+  .o_event_barcode_main {
+    -webkit-box-flex: 0; -webkit-flex: 0 0 auto; flex: 0 0 auto;
+    width: 550px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+    font-size: 1.2em;
+    padding: 3em;
+  }
+}
+
+.o_notification_manager .o_event_success {
+  color: white;
+  background-color: #5BC236;
+}
+
