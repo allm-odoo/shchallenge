@@ -1,0 +1,452 @@
+
+#hr_contract_salary {
+  /*
+   Layout
+   ========================================================================== */
+}
+
+#hr_contract_salary #hr_cs_form {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 13px;
+  /* FF 19+ */
+  /* IE 10+ */
+  /*
+       Radios Buttons & Check Boxes
+       ========================================================================== */
+  /* Hover and focus states */
+  /* Checked state */
+  /* Check mark */
+  /* Show check mark */
+  /* Checkbox tick */
+  /* Radio button inner circle */
+  /*
+       Ranges
+       ========================================================================== */
+  /*
+       Selects
+       ========================================================================== */
+}
+
+#hr_contract_salary #hr_cs_form section {
+  padding-bottom: 45px;
+}
+
+#hr_contract_salary #hr_cs_form h1 {
+  margin: 45px 0 30px 0;
+  font-weight: 400;
+}
+
+#hr_contract_salary #hr_cs_form h2 {
+  margin: 20px 0 15px 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#hr_contract_salary #hr_cs_form a {
+  color: #00A09D;
+}
+
+#hr_contract_salary #hr_cs_form input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+#hr_contract_salary #hr_cs_form input:focus::-moz-placeholder {
+  color: transparent;
+}
+
+#hr_contract_salary #hr_cs_form input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+#hr_contract_salary #hr_cs_form .form-group {
+  margin-bottom: 0;
+  border-top: 1px solid #E9ECEF;
+}
+
+#hr_contract_salary #hr_cs_form .form-text {
+  display: inline-block;
+  margin: 0;
+  font-weight: 400;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_configurator .form-group .col-form-label,
+#hr_contract_salary #hr_cs_form #hr_cs_sidebar .form-group .col-form-label {
+  color: #875A7B;
+  font-weight: 500;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_configurator .form-control[disabled],
+#hr_contract_salary #hr_cs_form #hr_cs_sidebar .form-control[disabled],
+#hr_contract_salary #hr_cs_form #hr_cs_modal .form-control[disabled] {
+  height: auto;
+  padding: 0;
+  border: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  color: #000;
+  box-shadow: none;
+  cursor: default;
+  text-align: right;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_configurator .input-group .form-control[disabled] + .input-group-append .input-group-text,
+#hr_contract_salary #hr_cs_form #hr_cs_sidebar .input-group .form-control[disabled] + .input-group-append .input-group-text,
+#hr_contract_salary #hr_cs_form #hr_cs_modal .input-group .form-control[disabled] + .input-group-append .input-group-text {
+  border: none;
+  background-color: transparent;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_configurator .form-group {
+  padding: 20px 0;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_configurator .form-group .col-form-label {
+  padding-left: 55px;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_configurator .form-group .col-form-label .fa {
+  position: absolute;
+  top: -20px;
+  left: 15px;
+  bottom: auto;
+  right: auto;
+  width: 30px;
+  height: 45px;
+  line-height: 58px;
+  background-color: #875A7B;
+  color: #fff;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_configurator .form-group .col-form-label .fa.fa-lg {
+  font-size: 1.5em;
+  line-height: 55px;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_sidebar .form-group {
+  padding: 5px 0;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_sidebar .form-group:last-child {
+  border-bottom: 1px solid #E9ECEF;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_sidebar .form-group .form-control[disabled].o_outdated {
+  color: #dc3545;
+  text-decoration: line-through;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_sidebar .form-group .col-form-label {
+  margin-bottom: 0;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_sidebar a {
+  cursor: pointer;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_personal_information {
+  background-color: #E9ECEF;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_personal_information h2 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d8dbdd;
+  color: #875A7B;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_personal_information .form-group {
+  border: 0;
+  margin-bottom: 15px;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_personal_information .form-group .form-control:hover, #hr_contract_salary #hr_cs_form #hr_cs_personal_information .form-group .form-control:focus {
+  border-color: #00A09D;
+  box-shadow: none;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_personal_information .form-group .col-form-label {
+  color: #000;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_personal_information .form-group input.bg-danger {
+  background-color: white !important;
+  border-color: red !important;
+  color: #495057 !important;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_personal_information .form-group a.select2-choice.bg-danger {
+  background-color: white !important;
+  border-color: red !important;
+  color: #495057 !important;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_personal_information .form-group .o_contract_radio.invalid_radio {
+  border: 1px solid red;
+  border-radius: 0.25rem;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_btn_submit {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #00A09D;
+  color: #fff;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_btn_submit a {
+  color: #fff;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_modal .modal-body :first-child {
+  border-top: 0;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_modal .form-group {
+  padding: 6px 0 4px 0;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_modal .form-group .fa-plus {
+  color: #28a745;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_modal .form-group .fa-minus {
+  color: #dc3545;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_modal .col-form-label {
+  margin-bottom: 0;
+}
+
+#hr_contract_salary #hr_cs_form #hr_cs_modal .close {
+  opacity: 1;
+  background-color: white;
+  border-color: white;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control {
+  position: relative;
+  display: inline-block;
+  margin-right: 30px;
+  padding-left: 30px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control_indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: auto;
+  right: auto;
+  width: 20px;
+  height: 20px;
+  background-color: #E9ECEF;
+  border: 1px solid #a1a8ae;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control_indicator.hr_cs_control_indicator_white {
+  background-color: #fff;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control:hover input ~ .hr_cs_control_indicator {
+  background-color: #a1a8ae;
+  border-color: #a1a8ae;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control:hover input ~ .hr_cs_control_indicator:after {
+  display: block;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control input:checked ~ .hr_cs_control_indicator {
+  background-color: #00A09D;
+  border-color: #00A09D;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control input:checked ~ .hr_cs_control_indicator.hr_cs_control_no {
+  background-color: #E46F78;
+  border-color: #E46F78;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control_indicator:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control input:checked ~ .hr_cs_control_indicator:after {
+  display: block;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control_checkbox .hr_cs_control_indicator:after {
+  top: 2px;
+  left: 6px;
+  width: 6px;
+  height: 12px;
+  transform: rotate(45deg);
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control_radio .hr_cs_control_indicator {
+  border-radius: 50%;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control_radio .hr_cs_control_indicator:after {
+  top: 5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control_range {
+  width: 82%;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit--webkit-appearance: none; -moz-appearance: none; appearance: none;
+  /* Track */
+  /* Thumb */
+  /* Progress */
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control_range:focus {
+  outline: none;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control_range::-webkit-slider-runnable-track {
+  height: 5px;
+  background-color: #E9ECEF;
+  cursor: pointer;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control_range::-moz-range-track {
+  height: 5px;
+  background-color: #E9ECEF;
+  cursor: pointer;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control_range::-ms-track {
+  height: 5px;
+  background-color: #E9ECEF;
+  cursor: pointer;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control_range::-webkit-slider-thumb {
+  width: 18px;
+  height: 18px;
+  border: 0;
+  margin-top: -7px;
+  background-color: #00A09D;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit--webkit-appearance: none; -moz-appearance: none; appearance: none;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control_range::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border: 0;
+  margin-top: -7px;
+  background-color: #00A09D;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control_range::-ms-thumb {
+  width: 18px;
+  height: 18px;
+  border: 0;
+  margin-top: -7px;
+  background-color: #00A09D;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control_range::-moz-range-progress {
+  height: 5px;
+  background: #00A09D;
+}
+
+#hr_contract_salary #hr_cs_form .hr_cs_control_range::-ms-fill-lower {
+  height: 5px;
+  background: #00A09D;
+}
+
+#hr_contract_salary #hr_cs_form .select2-container {
+  border: 0;
+  box-shadow: none;
+}
+
+#hr_contract_salary #hr_cs_form .select2-container .select2-choice {
+  background-color: #fff;
+  color: #212529;
+  background-image: none;
+  height: 34px;
+  line-height: 34px;
+  border: 1px solid #CED4DA;
+  border-radius: 4px;
+}
+
+#hr_contract_salary #hr_cs_form .select2-container .select2-choice .select2-arrow {
+  width: auto;
+  padding: 0 8px 0 10px;
+  border-left: 0;
+  background-color: #fff;
+  background-image: none;
+  font-size: .9em;
+  border-radius: 0;
+}
+
+#hr_contract_salary #hr_cs_form .select2-container .select2-choice .select2-arrow b {
+  margin: 4px 10px;
+}
+
+#hr_contract_salary #hr_cs_form .select2-container.select2-container-active .select2-choice {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-color: #00A09D;
+  box-shadow: none;
+}
+
+#hr_contract_salary #hr_cs_form .select2-container:hover, #hr_contract_salary #hr_cs_form .select2-container:focus {
+  box-shadow: none;
+}
+
+#hr_contract_salary #hr_cs_form .select2-container:hover .select2-choice, #hr_contract_salary #hr_cs_form .select2-container:focus .select2-choice {
+  border-color: #00A09D;
+}
+
+#hr_contract_salary #hr_cs_form .select2-container.form-control-primary .select2-choice {
+  border-color: #00A09D;
+}
+
+#hr_contract_salary #hr_cs_form .select2-container.form-control-primary .select2-choice .select2-arrow {
+  background-color: #00A09D;
+  color: #fff;
+}
+
+#hr_contract_salary .select2-drop {
+  margin-top: 0;
+  box-shadow: none;
+}
+
+#hr_contract_salary .select2-drop-active {
+  border-color: #00A09D;
+}
+
+#hr_contract_salary .select2-results .select2-highlighted {
+  background-color: #E9ECEF;
+  color: #212529;
+}
+
+.hr_cs_brand_optional {
+  color: #00A09D;
+}
+

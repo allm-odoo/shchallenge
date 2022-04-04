@@ -1,0 +1,232 @@
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet {
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  -webkit-flex-flow: column nowrap; flex-flow: column nowrap;
+  padding: 0;
+  background-color: #404040;
+  background-image: url(/web/static/lib/pdfjs/web/images/texture.png);
+  background-repeat: repeat;
+  color: #FFF;
+  height: auto;
+  font-size: 16px;
+}
+
+@media (min-width: 1200px) {
+  .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet {
+    font-size: 18px;
+  }
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet h1, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet h2, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet h3, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet h4, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet h5, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet h6 {
+  color: #FFF;
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .btn, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_radio_hide_bullet label, .o_radio_hide_bullet .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet label, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_account_reports_page .oe_link_reports, .o_account_reports_page .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .oe_link_reports {
+  font-size: 1em;
+  padding: 0.4em 1em;
+  margin: 0 2px;
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .btn.btn-secondary, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_radio_hide_bullet label, .o_radio_hide_bullet .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet label, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_account_reports_page .btn-secondary.oe_link_reports, .o_account_reports_page .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .btn-secondary.oe_link_reports {
+  color: #FFF;
+  background-color: #404040;
+  border: #404040;
+  text-transform: capitalize;
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .btn.fa-plus-square-o, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_radio_hide_bullet label.fa-plus-square-o, .o_radio_hide_bullet .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet label.fa-plus-square-o, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_account_reports_page .fa-plus-square-o.oe_link_reports, .o_account_reports_page .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .fa-plus-square-o.oe_link_reports {
+  margin-bottom: 1px;
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .btn.o_workorder_icon_btn, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_radio_hide_bullet label.o_workorder_icon_btn, .o_radio_hide_bullet .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet label.o_workorder_icon_btn, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_account_reports_page .o_workorder_icon_btn.oe_link_reports, .o_account_reports_page .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_icon_btn.oe_link_reports {
+  padding: 0.4em;
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .btn.o_workorder_icon_btn.o_workorder_icon_back, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_radio_hide_bullet label.o_workorder_icon_btn.o_workorder_icon_back, .o_radio_hide_bullet .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet label.o_workorder_icon_btn.o_workorder_icon_back, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_account_reports_page .o_workorder_icon_btn.o_workorder_icon_back.oe_link_reports, .o_account_reports_page .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_icon_btn.o_workorder_icon_back.oe_link_reports {
+  padding: 0.4em 0.8em;
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .btn .o_workorder_btn_icon_small, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_radio_hide_bullet label .o_workorder_btn_icon_small, .o_radio_hide_bullet .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet label .o_workorder_btn_icon_small, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_account_reports_page .oe_link_reports .o_workorder_btn_icon_small, .o_account_reports_page .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .oe_link_reports .o_workorder_btn_icon_small {
+  font-size: 0.8em;
+  margin-top: -1em;
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .btn .o_workorder_btn_icon_small.float-right, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_radio_hide_bullet label .o_workorder_btn_icon_small.float-right, .o_radio_hide_bullet .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet label .o_workorder_btn_icon_small.float-right, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_account_reports_page .oe_link_reports .o_workorder_btn_icon_small.float-right, .o_account_reports_page .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .oe_link_reports .o_workorder_btn_icon_small.float-right {
+  margin-top: 0.5em;
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_input {
+  background-color: #404040;
+  color: #FFF;
+  padding: 0.4em 1em;
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_field_widget {
+  margin-bottom: 0;
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_bar_content {
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  -webkit-flex-flow: row nowrap; flex-flow: row nowrap;
+  -webkit-box-flex: 1; -webkit-flex: 1 0 auto; flex: 1 0 auto;
+  align-items: center;
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_bar_content.workorder_bar_left {
+  word-break: break-all;
+  flex-shrink: 1;
+}
+
+@media (max-width: 767.98px) {
+  .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_bar_content {
+    -webkit-box-pack: start; justify-content: flex-start;
+  }
+  .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_bar_content.workorder_bar_left {
+    flex-flow: wrap;
+  }
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_bar_content.o_workorder_bar_content_right {
+  -webkit-box-pack: end; justify-content: flex-end;
+}
+
+@media (max-width: 767.98px) {
+  .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_bar_content.o_workorder_bar_content_right {
+    -webkit-box-pack: start; justify-content: flex-start;
+  }
+  .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_bar_content.o_workorder_bar_content_right .o_actions {
+    display: -webkit-box; display: -webkit-flex; display: flex;
+    flex-flow: column;
+    width: 100%;
+  }
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .workorder_bar, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .workorder_actions {
+  background-color: #333333;
+  background-image: url(/web/static/lib/pdfjs/web/images/texture.png);
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .workorder_bar {
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  -webkit-flex-flow: row wrap; flex-flow: row wrap;
+  padding: 8px 16px;
+  padding-left: 14px;
+}
+
+@media (max-width: 767.98px) {
+  .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .workorder_bar {
+    flex-flow: column;
+  }
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .workorder_actions {
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  -webkit-flex-flow: row nowrap; flex-flow: row nowrap;
+  padding: 8px 14px 16px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  font-size: 1.2em;
+}
+
+@media (max-width: 767.98px) {
+  .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .workorder_actions {
+    flex-flow: column;
+  }
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_data {
+  padding: 8px 16px 0;
+  font-size: 0.9em;
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_data table.o_list_table {
+  color: #666666;
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_data .o_workorder_form {
+  padding-bottom: 8px;
+  justify-content: space-between;
+}
+
+@media (max-width: 767.98px) {
+  .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_data .o_workorder_form {
+    flex-flow: column;
+    align-items: flex-start;
+  }
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_data .o_workorder_form > div {
+  -webkit-box-flex: 1; -webkit-flex: 1 0 auto; flex: 1 0 auto;
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_data .o_workorder_form .o_workorder_field > div.o_workorder_lot {
+  width: 100%;
+  justify-content: center;
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_data .o_workorder_form .o_workorder_field > div.o_workorder_lot > .o_lot_number {
+  width: 50%;
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_data .o_workorder_form .o_workorder_field > div.o_workorder_lot > .o_lot_number:not(.o_with_button) button.o_external_button {
+  display: block !important;
+  visibility: hidden;
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_data .o_workorder_form .o_workorder_field > div {
+  display: -webkit-inline-box; display: -webkit-inline-flex; display: inline-flex;
+  align-items: baseline;
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_data .o_workorder_form .o_workorder_field .o_form_label {
+  opacity: 0.7;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_data .o_workorder_form a, .o_web_client.o_fullscreen .o_form_view.o_workorder_tablet .o_workorder_data .o_workorder_form a::first-line {
+  font-weight: bold;
+  color: #FFF;
+}
+
+.o_web_client.o_fullscreen .o_view_controller {
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  -webkit-flex-flow: column nowrap; flex-flow: column nowrap;
+}
+
+.o_web_client.o_fullscreen .workorder_pdf {
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  -webkit-box-flex: 1; -webkit-flex: 1 0 auto; flex: 1 0 auto;
+}
+
+.o_web_client.o_fullscreen .workorder_pdf div.o_field_pdfviewer, .o_web_client.o_fullscreen .workorder_pdf span.o_embed_url_viewer {
+  margin: 0;
+  position: relative;
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  -webkit-box-flex: 1; -webkit-flex: 1 0 auto; flex: 1 0 auto;
+}
+
+@media (min-width: 768px) {
+  .o_web_client.o_fullscreen .workorder_pdf div.o_field_pdfviewer, .o_web_client.o_fullscreen .workorder_pdf span.o_embed_url_viewer {
+    height: auto;
+  }
+}
+
+.o_web_client.o_fullscreen .workorder_pdf div.o_field_pdfviewer iframe, .o_web_client.o_fullscreen .workorder_pdf span.o_embed_url_viewer iframe {
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.o_web_client.o_fullscreen .workorder_menu .btn, .o_web_client.o_fullscreen .workorder_menu .o_radio_hide_bullet label, .o_radio_hide_bullet .o_web_client.o_fullscreen .workorder_menu label, .o_web_client.o_fullscreen .workorder_menu .o_account_reports_page .oe_link_reports, .o_account_reports_page .o_web_client.o_fullscreen .workorder_menu .oe_link_reports {
+  margin-bottom: 16px;
+  padding: 1em;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
