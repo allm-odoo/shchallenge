@@ -1,0 +1,342 @@
+
+.o-spreadsheet .fa {
+  font-family: FontAwesome;
+}
+
+.o_documents_content .o_document_spreadsheet {
+  cursor: zoom-in;
+}
+
+.o_documents_content .o_spreadsheet_resize {
+  object-fit: cover;
+  object-position: left top;
+}
+
+.o_spreadsheet_selector_dialog option.o_new {
+  font-style: italic;
+}
+
+.o_content .o_spreadsheet_action {
+  height: 100%;
+}
+
+.o_content .o_spreadsheet_action .o_spreadsheet_container {
+  height: 100%;
+}
+
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet {
+  height: 100%;
+}
+
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_pivot_side_panel .o_side_panel_section, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_filter_editor_side_panel .o_side_panel_section, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_global_filters_side_panel .o_side_panel_section {
+  background-color: #fff;
+  padding: 16px;
+}
+
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_pivot_side_panel .o_side_panel_section .o_side_panel_title, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_filter_editor_side_panel .o_side_panel_section .o_side_panel_title, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_global_filters_side_panel .o_side_panel_section .o_side_panel_title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_pivot_side_panel .o_side_panel_section .o_field_matching_title, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_filter_editor_side_panel .o_side_panel_section .o_field_matching_title, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_global_filters_side_panel .o_side_panel_section .o_field_matching_title {
+  margin-bottom: 0px;
+}
+
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_pivot_side_panel .o_side_panel_section .o_field_selector, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_pivot_side_panel .o_side_panel_section .o_field_many2manytags, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_pivot_side_panel .o_side_panel_section .o_field_many2one, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_filter_editor_side_panel .o_side_panel_section .o_field_selector, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_filter_editor_side_panel .o_side_panel_section .o_field_many2manytags, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_filter_editor_side_panel .o_side_panel_section .o_field_many2one, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_global_filters_side_panel .o_side_panel_section .o_field_selector, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_global_filters_side_panel .o_side_panel_section .o_field_many2manytags, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_global_filters_side_panel .o_side_panel_section .o_field_many2one {
+  width: 100%;
+}
+
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_pivot_side_panel .o_side_panel_section .o_field_selector,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_pivot_side_panel .o_side_panel_section .o_field_selector *,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_pivot_side_panel .o_side_panel_section .o_field_selector *:before,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_pivot_side_panel .o_side_panel_section .o_field_selector *:after, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_pivot_side_panel .o_side_panel_section .o_field_many2manytags,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_pivot_side_panel .o_side_panel_section .o_field_many2manytags *,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_pivot_side_panel .o_side_panel_section .o_field_many2manytags *:before,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_pivot_side_panel .o_side_panel_section .o_field_many2manytags *:after, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_pivot_side_panel .o_side_panel_section .o_field_many2one,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_pivot_side_panel .o_side_panel_section .o_field_many2one *,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_pivot_side_panel .o_side_panel_section .o_field_many2one *:before,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_pivot_side_panel .o_side_panel_section .o_field_many2one *:after, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_filter_editor_side_panel .o_side_panel_section .o_field_selector,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_filter_editor_side_panel .o_side_panel_section .o_field_selector *,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_filter_editor_side_panel .o_side_panel_section .o_field_selector *:before,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_filter_editor_side_panel .o_side_panel_section .o_field_selector *:after, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_filter_editor_side_panel .o_side_panel_section .o_field_many2manytags,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_filter_editor_side_panel .o_side_panel_section .o_field_many2manytags *,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_filter_editor_side_panel .o_side_panel_section .o_field_many2manytags *:before,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_filter_editor_side_panel .o_side_panel_section .o_field_many2manytags *:after, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_filter_editor_side_panel .o_side_panel_section .o_field_many2one,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_filter_editor_side_panel .o_side_panel_section .o_field_many2one *,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_filter_editor_side_panel .o_side_panel_section .o_field_many2one *:before,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_filter_editor_side_panel .o_side_panel_section .o_field_many2one *:after, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_global_filters_side_panel .o_side_panel_section .o_field_selector,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_global_filters_side_panel .o_side_panel_section .o_field_selector *,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_global_filters_side_panel .o_side_panel_section .o_field_selector *:before,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_global_filters_side_panel .o_side_panel_section .o_field_selector *:after, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_global_filters_side_panel .o_side_panel_section .o_field_many2manytags,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_global_filters_side_panel .o_side_panel_section .o_field_many2manytags *,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_global_filters_side_panel .o_side_panel_section .o_field_many2manytags *:before,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_global_filters_side_panel .o_side_panel_section .o_field_many2manytags *:after, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_global_filters_side_panel .o_side_panel_section .o_field_many2one,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_global_filters_side_panel .o_side_panel_section .o_field_many2one *,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_global_filters_side_panel .o_side_panel_section .o_field_many2one *:before,
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_global_filters_side_panel .o_side_panel_section .o_field_many2one *:after {
+  box-sizing: border-box;
+}
+
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_pivot_side_panel .o_side_panel_section .o_pivot_last_update, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_filter_editor_side_panel .o_side_panel_section .o_pivot_last_update, .o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_spreadsheet_global_filters_side_panel .o_side_panel_section .o_pivot_last_update {
+  padding-top: 5px;
+  color: darkgrey;
+}
+
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o-spreadsheet-topbar .o-icon {
+  vertical-align: unset;
+}
+
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o-spreadsheet-topbar .o-menu-dropdown-item .o-icon {
+  vertical-align: middle;
+}
+
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o-spreadsheet-topbar .o-topbar-toolbar .o-toolbar-tools {
+  margin-left: 16px !important;
+}
+
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o-spreadsheet-topbar .o_topbar_filter_icon {
+  padding: 3px 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o-spreadsheet-topbar .o_topbar_filter_icon:hover {
+  background-color: #ebebeb;
+}
+
+.o_content .o_spreadsheet_action .o_spreadsheet_container .o-spreadsheet .o_filter_component {
+  display: -webkit-box; display: -webkit-flex; display: flex;
+}
+
+.o_spreadsheet_cp a.o_spreadsheet_favorite {
+  margin: 0px 5px;
+  opacity: 0.6;
+  color: #ced4da;
+}
+
+.o_spreadsheet_cp a.o_spreadsheet_favorite:hover, .o_spreadsheet_cp a.o_spreadsheet_favorite:focus, .o_spreadsheet_cp a.o_spreadsheet_favorite.focus {
+  opacity: 1;
+}
+
+.o_spreadsheet_cp a.o_spreadsheet_favorite:hover, .o_spreadsheet_cp a.o_spreadsheet_favorite:focus, .o_spreadsheet_cp a.o_spreadsheet_favorite.focus {
+  color: #F0AD4E;
+}
+
+.o_spreadsheet_cp a.o_spreadsheet_favorite.favorite_button_enabled {
+  color: #F0AD4E;
+  transition: 0.3s color 0.1s;
+}
+
+.o_spreadsheet_cp a.o_spreadsheet_favorite.favorite_button_enabled:hover, .o_spreadsheet_cp a.o_spreadsheet_favorite.favorite_button_enabled:focus, .o_spreadsheet_cp a.o_spreadsheet_favorite.favorite_button_enabled.focus {
+  color: #DC6965;
+}
+
+.o_spreadsheet_cp .o_spreadsheet_name {
+  display: inline-block;
+  max-width: 95%;
+}
+
+.o_spreadsheet_cp .o_spreadsheet_name input {
+  max-width: 100%;
+  text-overflow: clip;
+  overflow: hidden;
+  border: none;
+  padding: 0px 5px 0px 2px;
+  color: #8f8f8f;
+}
+
+.o_spreadsheet_cp .o_spreadsheet_name input:focus {
+  outline: 1px solid #ccc;
+  outline-offset: -1px;
+  color: #000;
+}
+
+.o_spreadsheet_cp .o_spreadsheet_name input.o-spreadsheet-untitled {
+  font-style: italic;
+}
+
+.o_spreadsheet_cp .o_spreadsheet_name input.o-spreadsheet-untitled:focus {
+  font-style: normal;
+}
+
+.o_spreadsheet_cp .o_cp_top_left {
+  width: 100%;
+}
+
+.o_spreadsheet_cp .o_cp_top_right {
+  width: 0%;
+}
+
+.o_control_panel.o_spreadsheet_cp {
+  padding-bottom: 0px;
+}
+
+.o-sidePanel .o-sidePanelButtons .o-sidePanelButton {
+  color: #666;
+}
+
+.o-sidePanel .o-sidePanelButtons .o-sidePanelButton.o_global_filter_save {
+  color: #008784;
+  border-color: #008784;
+}
+
+.o_spreadsheet_global_filters_side_panel input, .o_spreadsheet_filter_editor_side_panel input {
+  outline: none;
+  width: 100%;
+}
+
+.o_spreadsheet_global_filters_side_panel .o_pivot_field_matching, .o_spreadsheet_filter_editor_side_panel .o_pivot_field_matching {
+  padding: 8px 0px;
+}
+
+.o_spreadsheet_global_filters_side_panel .pivot_filter_section, .o_spreadsheet_filter_editor_side_panel .pivot_filter_section {
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  flex-direction: row;
+}
+
+.o_spreadsheet_global_filters_side_panel .pivot_filter_section .o_pivot_model_technical_name, .o_spreadsheet_filter_editor_side_panel .pivot_filter_section .o_pivot_model_technical_name {
+  font-size: 0.9rem;
+}
+
+.o_spreadsheet_global_filters_side_panel .pivot_filter_section .pivot_filter, .o_spreadsheet_filter_editor_side_panel .pivot_filter_section .pivot_filter {
+  flex-grow: 1;
+}
+
+.o_spreadsheet_global_filters_side_panel .pivot_filter_section .pivot_filter .pivot_filter_input, .o_spreadsheet_filter_editor_side_panel .pivot_filter_section .pivot_filter .pivot_filter_input {
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.o_spreadsheet_global_filters_side_panel .pivot_filter_section .pivot_filter .pivot_filter_input > div, .o_spreadsheet_filter_editor_side_panel .pivot_filter_section .pivot_filter .pivot_filter_input > div {
+  width: 100%;
+}
+
+.o_spreadsheet_global_filters_side_panel .pivot_filter_section .pivot_filter .pivot_filter_input .o_side_panel_filter_icon, .o_spreadsheet_filter_editor_side_panel .pivot_filter_section .pivot_filter .pivot_filter_input .o_side_panel_filter_icon {
+  width: 15px;
+  margin-left: 0.5rem;
+  padding: 0;
+  cursor: pointer;
+}
+
+.o_spreadsheet_global_filters_side_panel .pivot_filter_section .pivot_filter .pivot_filter_input .o_side_panel_filter_icon:hover, .o_spreadsheet_filter_editor_side_panel .pivot_filter_section .pivot_filter .pivot_filter_input .o_side_panel_filter_icon:hover {
+  color: #666666 !important;
+}
+
+.o_spreadsheet_global_filters_side_panel .o_add_filter, .o_spreadsheet_filter_editor_side_panel .o_add_filter {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.o_spreadsheet_global_filters_side_panel .o-sidePanelButtons, .o_spreadsheet_filter_editor_side_panel .o-sidePanelButtons {
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  flex-direction: row;
+}
+
+.o_spreadsheet_global_filters_side_panel .o-sidePanelButtons .o-sidePanelButton, .o_spreadsheet_filter_editor_side_panel .o-sidePanelButtons .o-sidePanelButton {
+  flex-grow: 1;
+}
+
+.o_spreadsheet_global_filters_side_panel .date_filter_values, .o_spreadsheet_filter_editor_side_panel .date_filter_values {
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  flex-direction: row;
+}
+
+.o_spreadsheet_global_filters_side_panel .date_filter_values select:not(:first-child), .o_spreadsheet_filter_editor_side_panel .date_filter_values select:not(:first-child) {
+  margin-left: 10px;
+}
+
+.o_spreadsheet_filter_editor_side_panel .o_global_filter_delete {
+  color: #DC6965;
+  float: left;
+}
+
+.o-spreadsheet-templates-dialog {
+  max-height: 90vh;
+  overflow: auto;
+}
+
+.o-spreadsheet-templates-dialog .o_searchview {
+  height: 24px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+.o-spreadsheet-templates-dialog .o-pager {
+  height: 30px;
+  display: -webkit-box; display: -webkit-flex; display: flex;
+}
+
+.o-spreadsheet-templates-dialog .o-pager nav {
+  margin: auto 15px auto auto;
+}
+
+.o-spreadsheet-templates-dialog .o-templates-container {
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  -webkit-flex-flow: row wrap; flex-flow: row wrap;
+}
+
+.o-spreadsheet-templates-dialog .o-templates-container .o-template {
+  flex: 0 1 150px;
+  margin: 15px;
+}
+
+.o-spreadsheet-templates-dialog .o-templates-container .o-template img {
+  height: 150px;
+  border: 1px solid #ced4da;
+  width: 100%;
+}
+
+.o-spreadsheet-templates-dialog .o-templates-container .o-template img:focus {
+  outline: none;
+}
+
+.o-spreadsheet-templates-dialog .o-templates-container .o-template img.o-template-selected {
+  border-color: #00A09D;
+  box-shadow: 0 0 0 1px #00A09D;
+}
+
+.o-spreadsheet-templates-dialog .o-templates-container .o-template.o-blank-template img {
+  padding: 1.5rem;
+}
+
+.o_missing_values_dialog > div.custom-control {
+  margin-bottom: 8px;
+}
+
+.o_missing_values_dialog .o_pivot_table_dialog {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.o_missing_values_dialog .o_pivot_table_dialog:hover {
+  cursor: pointer;
+}
+
+.o_missing_values_dialog .o_pivot_table_dialog td, .o_missing_values_dialog .o_pivot_table_dialog th {
+  border: 1px solid #dee2e6;
+  background-color: #fff;
+  padding: 0.3rem;
+  white-space: nowrap;
+}
+
+.o_missing_values_dialog .o_pivot_table_dialog td:hover, .o_missing_values_dialog .o_pivot_table_dialog th:hover {
+  filter: brightness(0.9);
+}
+
+.o_missing_values_dialog .o_pivot_table_dialog td {
+  text-align: right;
+}
+
+.o_missing_values_dialog .o_pivot_table_dialog th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  color: black;
+}
+
+.o_missing_values_dialog .o_pivot_table_dialog .o_missing_value {
+  color: #46646d;
+  background: #e7f2f6;
+}
+

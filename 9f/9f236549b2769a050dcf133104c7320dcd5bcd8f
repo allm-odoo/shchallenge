@@ -1,0 +1,46 @@
+
+.o_social_facebook_preview .o_social_preview_icon_wrapper {
+  background-color: #4267B2;
+}
+
+.o_social_facebook_preview .o_social_preview_icon_wrapper .fa {
+  transform: translate(0.3em, 0.2em);
+}
+
+.o_social_facebook_preview .o_social_preview_author {
+  line-height: 1;
+}
+
+.o_social_facebook_preview .o_social_preview_author b {
+  color: #415F9C;
+}
+
+.o_social_facebook_preview .o_social_preview_author .o_social_preview_description {
+  font-size: 0.75em;
+}
+
+.o_social_comments_modal_facebook a:not(.btn-outline-secondary):not(.o_social_comment_published_date):not(.o_social_post_published_date) {
+  color: #385898;
+}
+
+.o_social_comments_modal_facebook a:not(.btn-outline-secondary):not(.o_social_comment_published_date):not(.o_social_post_published_date):hover, .o_social_comments_modal_facebook a:not(.btn-outline-secondary):not(.o_social_comment_published_date):not(.o_social_post_published_date):focus {
+  color: #385898;
+  text-decoration: underline;
+}
+
+.o_social_stream_post_facebook_stats .o_social_facebook_likes.o_social_facebook_user_likes {
+  color: #875A7B;
+}
+
+.o_social_stream_post_facebook_stats .o_social_facebook_likes.o_social_facebook_user_likes:hover, .o_social_stream_post_facebook_stats .o_social_facebook_likes.o_social_facebook_user_likes:focus, .o_social_stream_post_facebook_stats .o_social_facebook_likes.o_social_facebook_user_likes.focus {
+  color: #68465f;
+}
+
+.o_social_original_post_facebook_stats .o_social_facebook_likes.o_social_facebook_user_likes {
+  color: #875A7B;
+}
+
+.o_social_comments_modal .o_social_facebook_likes {
+  color: gray;
+}
+

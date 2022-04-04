@@ -1,0 +1,112 @@
+
+.o_expo_theme {
+  color: black;
+}
+
+.o_expo_theme .bg-o-color-2, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo, .o_expo_theme .o_mail_block_steps .o_mail_snippet_general, .o_expo_theme .o_mail_block_event .o_mail_snippet_general {
+  background-color: #262b36 !important;
+}
+
+.o_expo_theme a.bg-o-color-2:hover, .o_expo_theme .o_solar_theme a[class^="o_mail_block"].o_mail_block_footer_social:hover:not([class*="bg-"]), .o_solar_theme .o_expo_theme a[class^="o_mail_block"].o_mail_block_footer_social:hover:not([class*="bg-"]), .o_expo_theme .o_solar_theme a[class^="o_mail_block"].o_mail_block_header_social:hover:not([class*="bg-"]), .o_solar_theme .o_expo_theme a[class^="o_mail_block"].o_mail_block_header_social:hover:not([class*="bg-"]), .o_expo_theme .o_solar_theme a[class^="o_mail_block"].o_mail_block_header_text_social:hover:not([class*="bg-"]), .o_solar_theme .o_expo_theme a[class^="o_mail_block"].o_mail_block_header_text_social:hover:not([class*="bg-"]), .o_expo_theme .o_solar_theme a[class^="o_mail_block"].o_mail_block_header_logo:hover:not([class*="bg-"]), .o_solar_theme .o_expo_theme a[class^="o_mail_block"].o_mail_block_header_logo:hover:not([class*="bg-"]), .o_expo_theme .o_mail_block_steps a.o_mail_snippet_general:hover, .o_expo_theme .o_mail_block_event a.o_mail_snippet_general:hover, .o_expo_theme a.bg-o-color-2:focus, .o_expo_theme .o_solar_theme a[class^="o_mail_block"].o_mail_block_footer_social:focus:not([class*="bg-"]), .o_solar_theme .o_expo_theme a[class^="o_mail_block"].o_mail_block_footer_social:focus:not([class*="bg-"]), .o_expo_theme .o_solar_theme a[class^="o_mail_block"].o_mail_block_header_social:focus:not([class*="bg-"]), .o_solar_theme .o_expo_theme a[class^="o_mail_block"].o_mail_block_header_social:focus:not([class*="bg-"]), .o_expo_theme .o_solar_theme a[class^="o_mail_block"].o_mail_block_header_text_social:focus:not([class*="bg-"]), .o_solar_theme .o_expo_theme a[class^="o_mail_block"].o_mail_block_header_text_social:focus:not([class*="bg-"]), .o_expo_theme .o_solar_theme a[class^="o_mail_block"].o_mail_block_header_logo:focus:not([class*="bg-"]), .o_solar_theme .o_expo_theme a[class^="o_mail_block"].o_mail_block_header_logo:focus:not([class*="bg-"]), .o_expo_theme .o_mail_block_steps a.o_mail_snippet_general:focus, .o_expo_theme .o_mail_block_event a.o_mail_snippet_general:focus,
+.o_expo_theme button.bg-o-color-2:hover,
+.o_expo_theme .o_solar_theme button[class^="o_mail_block"].o_mail_block_footer_social:hover:not([class*="bg-"]),
+.o_solar_theme .o_expo_theme button[class^="o_mail_block"].o_mail_block_footer_social:hover:not([class*="bg-"]),
+.o_expo_theme .o_solar_theme button[class^="o_mail_block"].o_mail_block_header_social:hover:not([class*="bg-"]),
+.o_solar_theme .o_expo_theme button[class^="o_mail_block"].o_mail_block_header_social:hover:not([class*="bg-"]),
+.o_expo_theme .o_solar_theme button[class^="o_mail_block"].o_mail_block_header_text_social:hover:not([class*="bg-"]),
+.o_solar_theme .o_expo_theme button[class^="o_mail_block"].o_mail_block_header_text_social:hover:not([class*="bg-"]),
+.o_expo_theme .o_solar_theme button[class^="o_mail_block"].o_mail_block_header_logo:hover:not([class*="bg-"]),
+.o_solar_theme .o_expo_theme button[class^="o_mail_block"].o_mail_block_header_logo:hover:not([class*="bg-"]),
+.o_expo_theme .o_mail_block_steps button.o_mail_snippet_general:hover,
+.o_expo_theme .o_mail_block_event button.o_mail_snippet_general:hover,
+.o_expo_theme button.bg-o-color-2:focus,
+.o_expo_theme .o_solar_theme button[class^="o_mail_block"].o_mail_block_footer_social:focus:not([class*="bg-"]),
+.o_solar_theme .o_expo_theme button[class^="o_mail_block"].o_mail_block_footer_social:focus:not([class*="bg-"]),
+.o_expo_theme .o_solar_theme button[class^="o_mail_block"].o_mail_block_header_social:focus:not([class*="bg-"]),
+.o_solar_theme .o_expo_theme button[class^="o_mail_block"].o_mail_block_header_social:focus:not([class*="bg-"]),
+.o_expo_theme .o_solar_theme button[class^="o_mail_block"].o_mail_block_header_text_social:focus:not([class*="bg-"]),
+.o_solar_theme .o_expo_theme button[class^="o_mail_block"].o_mail_block_header_text_social:focus:not([class*="bg-"]),
+.o_expo_theme .o_solar_theme button[class^="o_mail_block"].o_mail_block_header_logo:focus:not([class*="bg-"]),
+.o_solar_theme .o_expo_theme button[class^="o_mail_block"].o_mail_block_header_logo:focus:not([class*="bg-"]),
+.o_expo_theme .o_mail_block_steps button.o_mail_snippet_general:focus,
+.o_expo_theme .o_mail_block_event button.o_mail_snippet_general:focus {
+  background-color: #111318 !important;
+}
+
+.o_expo_theme .text-o-color-2 {
+  color: #262b36 !important;
+}
+
+.o_expo_theme a.text-o-color-2:hover, .o_expo_theme a.text-o-color-2:focus {
+  color: #111318 !important;
+}
+
+.o_expo_theme .bg-o-color-4 {
+  background-color: #ff3c00 !important;
+}
+
+.o_expo_theme a.bg-o-color-4:hover, .o_expo_theme a.bg-o-color-4:focus,
+.o_expo_theme button.bg-o-color-4:hover,
+.o_expo_theme button.bg-o-color-4:focus {
+  background-color: #cc3000 !important;
+}
+
+.o_expo_theme h1, .o_expo_theme h2, .o_expo_theme h3, .o_expo_theme h4, .o_expo_theme h5, .o_expo_theme h6, .o_expo_theme .h1, .o_expo_theme .h2, .o_expo_theme .h3, .o_expo_theme .h4, .o_expo_theme .h5, .o_expo_theme .h6 {
+  color: black;
+}
+
+.o_expo_theme .bg-o-color-2 h1, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social h1, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social h1, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social h1, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social h1, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social h1, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social h1, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo h1, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo h1, .o_expo_theme .o_mail_block_steps .o_mail_snippet_general h1, .o_expo_theme .o_mail_block_event .o_mail_snippet_general h1, .o_expo_theme .bg-o-color-2 h2, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social h2, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social h2, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social h2, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social h2, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social h2, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social h2, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo h2, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo h2, .o_expo_theme .o_mail_block_steps .o_mail_snippet_general h2, .o_expo_theme .o_mail_block_event .o_mail_snippet_general h2, .o_expo_theme .bg-o-color-2 h3, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social h3, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social h3, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social h3, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social h3, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social h3, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social h3, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo h3, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo h3, .o_expo_theme .o_mail_block_steps .o_mail_snippet_general h3, .o_expo_theme .o_mail_block_event .o_mail_snippet_general h3, .o_expo_theme .bg-o-color-2 h4, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social h4, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social h4, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social h4, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social h4, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social h4, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social h4, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo h4, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo h4, .o_expo_theme .o_mail_block_steps .o_mail_snippet_general h4, .o_expo_theme .o_mail_block_event .o_mail_snippet_general h4, .o_expo_theme .bg-o-color-2 h5, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social h5, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social h5, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social h5, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social h5, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social h5, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social h5, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo h5, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo h5, .o_expo_theme .o_mail_block_steps .o_mail_snippet_general h5, .o_expo_theme .o_mail_block_event .o_mail_snippet_general h5, .o_expo_theme .bg-o-color-2 h6, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social h6, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social h6, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social h6, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social h6, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social h6, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social h6, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo h6, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo h6, .o_expo_theme .o_mail_block_steps .o_mail_snippet_general h6, .o_expo_theme .o_mail_block_event .o_mail_snippet_general h6, .o_expo_theme .bg-o-color-2 .h1, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social .h1, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social .h1, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social .h1, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social .h1, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social .h1, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social .h1, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo .h1, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo .h1, .o_expo_theme .o_mail_block_steps .o_mail_snippet_general .h1, .o_expo_theme .o_mail_block_event .o_mail_snippet_general .h1, .o_expo_theme .bg-o-color-2 .h2, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social .h2, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social .h2, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social .h2, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social .h2, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social .h2, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social .h2, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo .h2, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo .h2, .o_expo_theme .o_mail_block_steps .o_mail_snippet_general .h2, .o_expo_theme .o_mail_block_event .o_mail_snippet_general .h2, .o_expo_theme .bg-o-color-2 .h3, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social .h3, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social .h3, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social .h3, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social .h3, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social .h3, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social .h3, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo .h3, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo .h3, .o_expo_theme .o_mail_block_steps .o_mail_snippet_general .h3, .o_expo_theme .o_mail_block_event .o_mail_snippet_general .h3, .o_expo_theme .bg-o-color-2 .h4, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social .h4, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social .h4, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social .h4, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social .h4, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social .h4, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social .h4, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo .h4, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo .h4, .o_expo_theme .o_mail_block_steps .o_mail_snippet_general .h4, .o_expo_theme .o_mail_block_event .o_mail_snippet_general .h4, .o_expo_theme .bg-o-color-2 .h5, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social .h5, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social .h5, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social .h5, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social .h5, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social .h5, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social .h5, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo .h5, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo .h5, .o_expo_theme .o_mail_block_steps .o_mail_snippet_general .h5, .o_expo_theme .o_mail_block_event .o_mail_snippet_general .h5, .o_expo_theme .bg-o-color-2 .h6, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social .h6, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social .h6, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social .h6, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social .h6, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social .h6, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social .h6, .o_expo_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo .h6, .o_solar_theme .o_expo_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo .h6, .o_expo_theme .o_mail_block_steps .o_mail_snippet_general .h6, .o_expo_theme .o_mail_block_event .o_mail_snippet_general .h6 {
+  color: white;
+}
+
+.o_expo_theme .btn.btn-primary {
+  color: white;
+  background-color: #ff3c00;
+}
+
+.o_expo_theme.o_layout {
+  background-color: white;
+}
+
+.o_expo_theme.o_layout > .o_mail_wrapper {
+  background-color: #f4f0e7;
+  border: none;
+}
+
+.o_expo_theme .o_mail_snippet_general a:not(.btn), .o_expo_theme .o_mail_snippet_general .btn.btn-link {
+  color: #e63600;
+}
+
+.o_expo_theme .o_mail_block_two_cols .o_mail_col_container, .o_expo_theme .o_mail_block_three_cols .o_mail_col_container {
+  padding: 20px;
+}
+
+.o_expo_theme .o_mail_block_image_text .o_mail_img_container, .o_expo_theme .o_mail_block_text_image .o_mail_img_container {
+  padding: 0;
+}
+
+.o_expo_theme .o_mail_block_event {
+  margin: 0;
+}
+
+.o_expo_theme .o_mail_block_image table {
+  padding: 0;
+}
+
+.o_expo_theme .o_mail_block_image table .o_mail_col_mv {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.o_expo_theme .o_mail_block_comparison_table tfoot .bg-gray-lighter, .o_expo_theme .o_mail_block_comparison_table tbody .bg-gray-lighter {
+  background-color: white !important;
+}
+
+.o_expo_theme .o_mail_block_comparison_table tfoot a.bg-gray-lighter:hover, .o_expo_theme .o_mail_block_comparison_table tfoot a.bg-gray-lighter:focus,
+.o_expo_theme .o_mail_block_comparison_table tfoot button.bg-gray-lighter:hover,
+.o_expo_theme .o_mail_block_comparison_table tfoot button.bg-gray-lighter:focus, .o_expo_theme .o_mail_block_comparison_table tbody a.bg-gray-lighter:hover, .o_expo_theme .o_mail_block_comparison_table tbody a.bg-gray-lighter:focus,
+.o_expo_theme .o_mail_block_comparison_table tbody button.bg-gray-lighter:hover,
+.o_expo_theme .o_mail_block_comparison_table tbody button.bg-gray-lighter:focus {
+  background-color: #e6e6e6 !important;
+}
+
