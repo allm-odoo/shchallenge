@@ -1,0 +1,19 @@
+
+.o_view_nocontent_workorder:before {
+  width: 100%;
+  height: 300px;
+  max-width: 680px;
+  margin-top: -80px;
+  background-size: contain;
+  background: transparent url("/mrp_workorder/static/img/workorder.png") no-repeat center;
+}
+
+.o_view_nocontent_steps:before {
+  width: 100%;
+  height: 300px;
+  max-width: 680px;
+  margin-top: -80px;
+  background-size: contain;
+  background: transparent url("/mrp_workorder/static/img/steps.png") no-repeat center;
+}
+
