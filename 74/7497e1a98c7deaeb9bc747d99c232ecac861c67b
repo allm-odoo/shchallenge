@@ -1,0 +1,36 @@
+
+.o_social_push_notifications_permission_request {
+  bottom: 0;
+  z-index: 1170;
+}
+
+@media (min-width: 576px) {
+  .o_social_push_notifications_permission_request {
+    top: 0;
+    bottom: auto;
+    padding-left: 76px;
+  }
+  .o_social_push_notifications_permission_request.o_social_push_notifications_permission_with_menubar {
+    top: 50px;
+  }
+  .o_social_push_notifications_permission_request .o_social_push_notifications_permission_content {
+    max-width: 276px;
+  }
+}
+
+.o_social_push_notifications_permission_request .close {
+  position: absolute;
+  top: 0;
+  left: auto;
+  bottom: auto;
+  right: 0;
+}
+
+.o_social_push_notifications_permission_request .dropdown-toggle:after {
+  display: none;
+}
+
+.o_social_push_notifications_permission_request .o_social_push_notifications_permission_content {
+  min-width: 150px;
+}
+

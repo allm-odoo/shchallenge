@@ -1,0 +1,570 @@
+
+.o_referral_action {
+  cursor: pointer;
+}
+
+.o_hr_referral_title {
+  color: #FFFFFF;
+}
+
+.o_hr_referral_title h1 {
+  font-family: Avengeance, "Roboto", "Odoo Unicode Support Noto", sans-serif;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 2rem;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .o_hr_referral_title h1 {
+    font-size: 3rem;
+  }
+}
+
+.o_hr_referral_title p {
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+  .o_hr_referral_title p {
+    font-size: 2rem;
+  }
+}
+
+.o_hr_referral_btn {
+  border-radius: 2px;
+  font-weight: bolder;
+  letter-spacing: .05rem;
+}
+
+.o_hr_referral_btn.side-btn {
+  background: transparent;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.o_hr_referral_btn.side-btn:hover {
+  background: #ffffff45;
+}
+
+.o_hr_referral_btn.center {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 1rem;
+}
+
+.o_hr_referral_background {
+  background: url("/hr_referral/static/src/img/bg.jpg") center/cover no-repeat;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+.o_hr_referral_background .hr_referral_bg_city {
+  background: url("/hr_referral/static/src/img/city.svg") center/cover no-repeat;
+  height: 100%;
+}
+
+.o_hr_referral_background .hr_referral_bg_grass {
+  background: url("/hr_referral/static/src/img/grass.svg") top center repeat-x, linear-gradient(0deg, #032a39 80%, rgba(255, 255, 255, 0) 96%);
+  width: 100%;
+  height: 40%;
+  bottom: 0;
+  position: absolute;
+}
+
+.o_hr_referral_wrapper {
+  min-height: 100%;
+  position: relative;
+  font-family: "Montserrat", Roboto, Odoo Unicode Support Noto, sans-serif;
+  color: #FFFFFF;
+}
+
+.o_hr_referral {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  height: 100%;
+}
+
+.o_hr_referral .superheroes_box {
+  min-height: 220px;
+  height: 100%;
+  max-height: 50vh;
+  position: relative;
+}
+
+.o_hr_referral .superheroes_box .superheroes {
+  position: absolute;
+  height: 100%;
+  margin: auto;
+  right: 0px;
+  left: 0px;
+  display: grid;
+  grid-template-columns: 11% 11% 11% 12% 10% 12% 11% 11% 11%;
+  grid-template-areas: "friend-7 friend-5 friend-3 friend-1 super_user friend-2 friend-4 friend-6 friend-8";
+}
+
+.o_hr_referral .superheroes_box .superheroes.superheroes_hoverer .friend-name {
+  opacity: 0;
+  transition: .3s;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 0;
+}
+
+.o_hr_referral .superheroes_box .superheroes.superheroes_hoverer .friend-hoverer {
+  z-index: 9;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.o_hr_referral .superheroes_box .superheroes.superheroes_hoverer .friend-hoverer:hover .friend-name {
+  opacity: 1;
+}
+
+.o_hr_referral .superheroes_box .superheroes .super {
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  justify-content: center;
+  width: 100%;
+  max-height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.o_hr_referral .superheroes_box .superheroes .super .img {
+  height: 100%;
+}
+
+.o_hr_referral .superheroes_box .superheroes .super_user {
+  grid-area: super_user;
+  z-index: 7;
+  bottom: 0;
+  height: 100%;
+}
+
+.o_hr_referral .superheroes_box .superheroes .friend-1 {
+  grid-area: friend-1;
+  bottom: 1rem;
+  z-index: 6;
+  height: 95%;
+}
+
+.o_hr_referral .superheroes_box .superheroes .friend-2 {
+  grid-area: friend-2;
+  bottom: 1.5rem;
+  z-index: 6;
+  height: 95%;
+}
+
+.o_hr_referral .superheroes_box .superheroes .friend-3 {
+  grid-area: friend-3;
+  bottom: 2rem;
+  z-index: 5;
+  height: 90%;
+}
+
+.o_hr_referral .superheroes_box .superheroes .friend-4 {
+  grid-area: friend-4;
+  bottom: 2.5rem;
+  z-index: 5;
+  height: 90%;
+}
+
+.o_hr_referral .superheroes_box .superheroes .friend-5 {
+  grid-area: friend-5;
+  bottom: 3rem;
+  z-index: 4;
+  height: 85%;
+}
+
+.o_hr_referral .superheroes_box .superheroes .friend-6 {
+  grid-area: friend-6;
+  bottom: 3.5rem;
+  z-index: 4;
+  height: 85%;
+}
+
+.o_hr_referral .superheroes_box .superheroes .friend-7 {
+  grid-area: friend-7;
+  bottom: 4rem;
+  z-index: 3;
+  height: 80%;
+}
+
+.o_hr_referral .superheroes_box .superheroes .friend-8 {
+  grid-area: friend-8;
+  bottom: 4.5rem;
+  z-index: 3;
+  height: 80%;
+}
+
+.o_hr_referral .superheroes_box .superheroes .behind {
+  z-index: -1;
+}
+
+.o_hr_referral .superheroes_box .superheroes .front {
+  bottom: -1rem !important;
+  z-index: 8 !important;
+}
+
+.o_hr_referral .user_wrapper {
+  margin: auto;
+  position: relative;
+}
+
+.o_hr_referral .user {
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 575.98px) {
+  .o_hr_referral .user {
+    margin-top: 0;
+    transform: translateX(-50%) scale(0.8);
+  }
+}
+
+.o_hr_referral .user_image {
+  width: 130px;
+  height: 130px;
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.o_hr_referral .user_image > img {
+  z-index: 1;
+  background: white;
+}
+
+.o_hr_referral .user_info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 350px;
+  height: 60%;
+  background: #FFFFFF;
+  color: #212529;
+  border-radius: 2px;
+  padding: 0 2rem;
+}
+
+.o_hr_referral .user_total, .o_hr_referral .user_points {
+  width: 25%;
+  text-align: center;
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.o_hr_referral .user_total:after, .o_hr_referral .user_points:after {
+  content: 'Points';
+  font-size: 0;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.o_hr_referral .user_points:after {
+  background: url("/hr_referral/static/src/img/points.svg") center/cover no-repeat;
+}
+
+.o_hr_referral .user_total:after {
+  background: url("/hr_referral/static/src/img/total.svg") center/cover no-repeat;
+}
+
+.o_hr_referral .user_level:before {
+  content: 'Level:';
+  display: inline-block;
+  font-weight: bold;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  3% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  5% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  10% {
+    -webkit-transform: scale3d(0.85, 1.15, 1);
+    transform: scale3d(0.85, 1.15, 1);
+  }
+  12% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  15% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.o_hr_referral .o_level_up {
+  animation: bounceIn .2s both;
+  animation-fill-mode: both;
+  animation-delay: 3s;
+  position: absolute;
+  top: -2.5rem;
+  left: auto;
+  bottom: auto;
+  right: auto;
+  z-index: 3;
+}
+
+.o_hr_referral .o_level_up img {
+  animation: bounce 3s infinite;
+  max-height: 70px;
+}
+
+.o_hr_referral .o_level_up p {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: -150%;
+  min-width: 200px;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-family: Avengeance, "Roboto", "Odoo Unicode Support Noto", sans-serif;
+  animation: appear .5s both;
+  animation-delay: 5s;
+}
+
+.o_hr_referral .o_level_up_txt {
+  animation-fill-mode: both;
+  animation: appear .5s both;
+  animation-delay: 5s;
+  z-index: 3;
+}
+
+.o_hr_referral .o_level_up_txt p {
+  min-width: 200px;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-family: Avengeance, "Roboto", "Odoo Unicode Support Noto", sans-serif;
+  margin-bottom: 0;
+}
+
+.o_hr_referral .o_hr_referral_level_up {
+  cursor: pointer;
+}
+
+.o_hr_referral .activity_wrapper {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.o_hr_referral .activity {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.o_hr_referral .activity .activity_stat {
+  text-align: center;
+  transition: .3s;
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid transparent;
+}
+
+.o_hr_referral .activity .activity_stat:hover {
+  background: #ffffff29;
+}
+
+.o_hr_referral .activity .activity_number {
+  margin: 0px auto;
+  color: #00a09d;
+  font-size: 2rem;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.o_hr_referral .activity .activity_text {
+  color: #FFFFFF;
+}
+
+@media (max-width: 767.98px) {
+  .o_hr_referral div:first-child.space_restart {
+    margin-top: 4rem;
+  }
+}
+
+.o_hr_referral .message {
+  background: rgba(255, 255, 255, 0.5);
+  color: #212529;
+  border-radius: 2px;
+  padding: 5px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: .3s;
+}
+
+.o_hr_referral .message:hover {
+  background: #FFFFFF;
+}
+
+.o_hr_referral .message .img {
+  max-width: 40px;
+  float: left;
+}
+
+.o_hr_referral_restart {
+  position: absolute;
+  top: 3rem;
+  right: 10px;
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  align-items: center;
+  cursor: pointer;
+  line-height: 2rem;
+}
+
+.o_hr_referral_restart:before {
+  position: absolute;
+  top: auto;
+  left: auto;
+  bottom: 0;
+  right: 0;
+  padding: 0 10px;
+  font-size: 2rem;
+  transition: .5s;
+}
+
+.o_hr_referral_restart:hover:before {
+  transform: rotate(180deg);
+  right: 100%;
+}
+
+@media (min-width: 576px) {
+  .o_hr_referral_restart {
+    top: 1rem;
+  }
+  .o_hr_referral_restart:after {
+    content: attr(aria-label);
+    display: inline-block;
+    height: 100%;
+    font-size: 1rem;
+    font-family: "Montserrat", Roboto, Odoo Unicode Support Noto, sans-serif;
+    opacity: 0;
+    transition: .3s ease;
+    transition-delay: .2s;
+    color: #FFFFFF;
+  }
+  .o_hr_referral_restart:hover:after {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .o_hr_referral_restart {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    top: auto;
+  }
+}
+
+.o_choose_friend_wrapper {
+  height: calc(100vh - 46px);
+  position: relative;
+  top: 10%;
+  margin-bottom: 1rem;
+}
+
+.o_choose_friend_wrapper .friends_avatars {
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  justify-content: space-evenly;
+  -webkit-flex-wrap: wrap; flex-wrap: wrap;
+}
+
+.o_choose_friend_wrapper .o_choose_friend > div {
+  width: 100px;
+  height: 100px;
+  margin: 0 .5rem;
+  background: #FFFFFF;
+  overflow: hidden;
+  position: relative;
+}
+
+.o_choose_friend_wrapper .o_choose_friend.o_choose_friend_available {
+  cursor: pointer;
+}
+
+.o_choose_friend_wrapper .o_choose_friend.o_choose_friend_available div {
+  transition: .3s;
+}
+
+.o_choose_friend_wrapper .o_choose_friend.o_choose_friend_available:hover div {
+  opacity: .9;
+  transform: scale(1.1);
+}
+
+.o_choose_friend_wrapper .o_choose_friend.o_choose_friend_not_available {
+  cursor: not-allowed;
+}
+
+.o_choose_friend_wrapper .o_choose_friend.o_choose_friend_not_available .o_choose_friend_not_available {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.o_referral_img img {
+  max-height: 70px;
+}
+
