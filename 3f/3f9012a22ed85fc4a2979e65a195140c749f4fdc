@@ -1,0 +1,121 @@
+
+table > tbody.o_grid_section > tr > .o_grid_current.o_cell_highlighted:not(.o_grid_total) {
+  background-color: rgba(0, 160, 157, 0.17);
+}
+
+table > tbody.o_grid_section > tr > th {
+  width: 30rem !important;
+}
+
+table > tbody.o_grid_section > tr > th div {
+  width: 100%;
+}
+
+table > tbody.o_grid_section > tr > th div > :first-child {
+  width: 20rem;
+}
+
+@media (min-width: 768px) {
+  table > tbody.o_grid_section > tr > th .o-timer-play-button {
+    opacity: 0;
+  }
+}
+
+table > tbody.o_grid_section > tr:hover .o-timer-play-button {
+  opacity: 1;
+}
+
+.timesheet-timer {
+  padding-right: 16px;
+  padding-left: 16px;
+  background-color: white;
+  border-bottom: 1px solid #cccccc;
+}
+
+.timesheet-timer button.btn_start_timer {
+  color: #FFFFFF;
+  background-color: #875A7B;
+  border-color: #875A7B;
+  text-transform: uppercase;
+}
+
+.timesheet-timer button.btn_start_timer:hover {
+  color: #FFFFFF;
+  background-color: #704b66;
+  border-color: #68465f;
+}
+
+.timesheet-timer button.btn_start_timer:focus, .timesheet-timer button.btn_start_timer.focus {
+  box-shadow: 0 0 0 0.2rem rgba(153, 115, 143, 0.5);
+}
+
+.timesheet-timer button.btn_start_timer.disabled, .timesheet-timer button.btn_start_timer:disabled {
+  color: #FFFFFF;
+  background-color: #875A7B;
+  border-color: #875A7B;
+}
+
+.timesheet-timer button.btn_start_timer:not(:disabled):not(.disabled):active, .timesheet-timer button.btn_start_timer:not(:disabled):not(.disabled).active,
+.show > .timesheet-timer button.btn_start_timer.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #68465f;
+  border-color: #614158;
+}
+
+.timesheet-timer button.btn_start_timer:not(:disabled):not(.disabled):active:focus, .timesheet-timer button.btn_start_timer:not(:disabled):not(.disabled).active:focus,
+.show > .timesheet-timer button.btn_start_timer.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(153, 115, 143, 0.5);
+}
+
+.timesheet-timer .input_timer {
+  width: 100px;
+  text-align: center;
+}
+
+.timesheet-timer .timer_m2o {
+  width: 100%;
+}
+
+.timesheet-timer .timer_m2o .o_field_many2one {
+  width: 100%;
+}
+
+.timesheet-timer .input_description {
+  flex-grow: 2;
+}
+
+.timesheet-timer .input_m2o {
+  flex-grow: 2;
+}
+
+.o_grid_view .o_standalone_avatar_employee {
+  display: -webkit-inline-box; display: -webkit-inline-flex; display: inline-flex;
+}
+
+.o_grid_view button.btn_timer_line {
+  border: 1px solid #00A09D;
+  border-radius: 0.12em;
+  background-color: rgba(0, 160, 157, 0.05);
+  color: #00A09D;
+  text-align: center;
+  width: 25px;
+  height: 23px;
+}
+
+.o_grid_view button.btn_timer_line.primary-green {
+  border: 1px solid #00A09D;
+  background-color: #00A09D;
+  color: white;
+}
+
+.o_grid_view .o_grid_timer_header {
+  padding-left: 16px;
+  width: 23px !important;
+}
+
+@media (min-width: 768px) {
+  .o_grid_view .o_grid_timer_header {
+    width: 2% !important;
+  }
+}
+
