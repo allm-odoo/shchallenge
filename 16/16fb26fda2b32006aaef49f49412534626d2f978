@@ -1,0 +1,71 @@
+
+.o_newsletter_theme .bg-o-color-2, .o_newsletter_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social, .o_solar_theme .o_newsletter_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_footer_social, .o_newsletter_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social, .o_solar_theme .o_newsletter_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_social, .o_newsletter_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social, .o_solar_theme .o_newsletter_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_text_social, .o_newsletter_theme .o_solar_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo, .o_solar_theme .o_newsletter_theme [class^="o_mail_block"]:not([class*="bg-"]).o_mail_block_header_logo, .o_newsletter_theme .o_expo_theme .o_mail_block_steps .o_mail_snippet_general, .o_expo_theme .o_mail_block_steps .o_newsletter_theme .o_mail_snippet_general, .o_newsletter_theme .o_expo_theme .o_mail_block_event .o_mail_snippet_general, .o_expo_theme .o_mail_block_event .o_newsletter_theme .o_mail_snippet_general {
+  background-color: #906784 !important;
+}
+
+.o_newsletter_theme a.bg-o-color-2:hover, .o_newsletter_theme .o_solar_theme a[class^="o_mail_block"].o_mail_block_footer_social:hover:not([class*="bg-"]), .o_solar_theme .o_newsletter_theme a[class^="o_mail_block"].o_mail_block_footer_social:hover:not([class*="bg-"]), .o_newsletter_theme .o_solar_theme a[class^="o_mail_block"].o_mail_block_header_social:hover:not([class*="bg-"]), .o_solar_theme .o_newsletter_theme a[class^="o_mail_block"].o_mail_block_header_social:hover:not([class*="bg-"]), .o_newsletter_theme .o_solar_theme a[class^="o_mail_block"].o_mail_block_header_text_social:hover:not([class*="bg-"]), .o_solar_theme .o_newsletter_theme a[class^="o_mail_block"].o_mail_block_header_text_social:hover:not([class*="bg-"]), .o_newsletter_theme .o_solar_theme a[class^="o_mail_block"].o_mail_block_header_logo:hover:not([class*="bg-"]), .o_solar_theme .o_newsletter_theme a[class^="o_mail_block"].o_mail_block_header_logo:hover:not([class*="bg-"]), .o_newsletter_theme .o_expo_theme .o_mail_block_steps a.o_mail_snippet_general:hover, .o_expo_theme .o_mail_block_steps .o_newsletter_theme a.o_mail_snippet_general:hover, .o_newsletter_theme .o_expo_theme .o_mail_block_event a.o_mail_snippet_general:hover, .o_expo_theme .o_mail_block_event .o_newsletter_theme a.o_mail_snippet_general:hover, .o_newsletter_theme a.bg-o-color-2:focus, .o_newsletter_theme .o_solar_theme a[class^="o_mail_block"].o_mail_block_footer_social:focus:not([class*="bg-"]), .o_solar_theme .o_newsletter_theme a[class^="o_mail_block"].o_mail_block_footer_social:focus:not([class*="bg-"]), .o_newsletter_theme .o_solar_theme a[class^="o_mail_block"].o_mail_block_header_social:focus:not([class*="bg-"]), .o_solar_theme .o_newsletter_theme a[class^="o_mail_block"].o_mail_block_header_social:focus:not([class*="bg-"]), .o_newsletter_theme .o_solar_theme a[class^="o_mail_block"].o_mail_block_header_text_social:focus:not([class*="bg-"]), .o_solar_theme .o_newsletter_theme a[class^="o_mail_block"].o_mail_block_header_text_social:focus:not([class*="bg-"]), .o_newsletter_theme .o_solar_theme a[class^="o_mail_block"].o_mail_block_header_logo:focus:not([class*="bg-"]), .o_solar_theme .o_newsletter_theme a[class^="o_mail_block"].o_mail_block_header_logo:focus:not([class*="bg-"]), .o_newsletter_theme .o_expo_theme .o_mail_block_steps a.o_mail_snippet_general:focus, .o_expo_theme .o_mail_block_steps .o_newsletter_theme a.o_mail_snippet_general:focus, .o_newsletter_theme .o_expo_theme .o_mail_block_event a.o_mail_snippet_general:focus, .o_expo_theme .o_mail_block_event .o_newsletter_theme a.o_mail_snippet_general:focus,
+.o_newsletter_theme button.bg-o-color-2:hover,
+.o_newsletter_theme .o_solar_theme button[class^="o_mail_block"].o_mail_block_footer_social:hover:not([class*="bg-"]),
+.o_solar_theme .o_newsletter_theme button[class^="o_mail_block"].o_mail_block_footer_social:hover:not([class*="bg-"]),
+.o_newsletter_theme .o_solar_theme button[class^="o_mail_block"].o_mail_block_header_social:hover:not([class*="bg-"]),
+.o_solar_theme .o_newsletter_theme button[class^="o_mail_block"].o_mail_block_header_social:hover:not([class*="bg-"]),
+.o_newsletter_theme .o_solar_theme button[class^="o_mail_block"].o_mail_block_header_text_social:hover:not([class*="bg-"]),
+.o_solar_theme .o_newsletter_theme button[class^="o_mail_block"].o_mail_block_header_text_social:hover:not([class*="bg-"]),
+.o_newsletter_theme .o_solar_theme button[class^="o_mail_block"].o_mail_block_header_logo:hover:not([class*="bg-"]),
+.o_solar_theme .o_newsletter_theme button[class^="o_mail_block"].o_mail_block_header_logo:hover:not([class*="bg-"]),
+.o_newsletter_theme .o_expo_theme .o_mail_block_steps button.o_mail_snippet_general:hover,
+.o_expo_theme .o_mail_block_steps .o_newsletter_theme button.o_mail_snippet_general:hover,
+.o_newsletter_theme .o_expo_theme .o_mail_block_event button.o_mail_snippet_general:hover,
+.o_expo_theme .o_mail_block_event .o_newsletter_theme button.o_mail_snippet_general:hover,
+.o_newsletter_theme button.bg-o-color-2:focus,
+.o_newsletter_theme .o_solar_theme button[class^="o_mail_block"].o_mail_block_footer_social:focus:not([class*="bg-"]),
+.o_solar_theme .o_newsletter_theme button[class^="o_mail_block"].o_mail_block_footer_social:focus:not([class*="bg-"]),
+.o_newsletter_theme .o_solar_theme button[class^="o_mail_block"].o_mail_block_header_social:focus:not([class*="bg-"]),
+.o_solar_theme .o_newsletter_theme button[class^="o_mail_block"].o_mail_block_header_social:focus:not([class*="bg-"]),
+.o_newsletter_theme .o_solar_theme button[class^="o_mail_block"].o_mail_block_header_text_social:focus:not([class*="bg-"]),
+.o_solar_theme .o_newsletter_theme button[class^="o_mail_block"].o_mail_block_header_text_social:focus:not([class*="bg-"]),
+.o_newsletter_theme .o_solar_theme button[class^="o_mail_block"].o_mail_block_header_logo:focus:not([class*="bg-"]),
+.o_solar_theme .o_newsletter_theme button[class^="o_mail_block"].o_mail_block_header_logo:focus:not([class*="bg-"]),
+.o_newsletter_theme .o_expo_theme .o_mail_block_steps button.o_mail_snippet_general:focus,
+.o_expo_theme .o_mail_block_steps .o_newsletter_theme button.o_mail_snippet_general:focus,
+.o_newsletter_theme .o_expo_theme .o_mail_block_event button.o_mail_snippet_general:focus,
+.o_expo_theme .o_mail_block_event .o_newsletter_theme button.o_mail_snippet_general:focus {
+  background-color: #725269 !important;
+}
+
+.o_newsletter_theme .text-o-color-2 {
+  color: #906784 !important;
+}
+
+.o_newsletter_theme a.text-o-color-2:hover, .o_newsletter_theme a.text-o-color-2:focus {
+  color: #725269 !important;
+}
+
+.o_newsletter_theme .bg-o-color-4 {
+  background-color: #87a6b5 !important;
+}
+
+.o_newsletter_theme a.bg-o-color-4:hover, .o_newsletter_theme a.bg-o-color-4:focus,
+.o_newsletter_theme button.bg-o-color-4:hover,
+.o_newsletter_theme button.bg-o-color-4:focus {
+  background-color: #678fa2 !important;
+}
+
+.o_newsletter_theme .o_mail_snippet_general .btn.btn-primary {
+  color: #ffffff;
+  background-color: #1cc1a9;
+}
+
+.o_newsletter_theme .o_mail_snippet_general a:not(.btn), .o_newsletter_theme .o_mail_snippet_general .btn.btn-link {
+  color: #19ab96;
+}
+
+.o_newsletter_theme .o_mail_snippet_general .bg-o-color-4 .btn.btn-primary {
+  color: #ffffff;
+  background-color: #906784;
+}
+
+.o_newsletter_theme .o_mail_snippet_general .bg-o-color-4 a:not(.btn), .o_newsletter_theme .o_mail_snippet_general .bg-o-color-4 .btn.btn-link {
+  color: #906784;
+}
+
