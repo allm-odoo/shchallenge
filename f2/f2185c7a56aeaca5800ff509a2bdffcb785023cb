@@ -1,0 +1,204 @@
+
+.o_planning_progress_gantt_0 {
+  background: black;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_1 {
+  background: #9a1b0d;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_2 {
+  background: #af570c;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_3 {
+  background: #796204;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_4 {
+  background: #1578ab;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_5 {
+  background: #1f1219;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_6 {
+  background: #b41c1d;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_7 {
+  background: #091c21;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_8 {
+  background: #0e1117;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_9 {
+  background: #4a0721;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_10 {
+  background: #124830;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_11 {
+  background: #452a5a;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_12 {
+  background: #401c28;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_13 {
+  background: #124830;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_14 {
+  background: #281f10;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_15 {
+  background: #796204;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_16 {
+  background: #093d94;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_17 {
+  background: #25092c;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_18 {
+  background: #4a0721;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_19 {
+  background: black;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_20 {
+  background: #0b1f11;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_21 {
+  background: #371312;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_22 {
+  background: #19120f;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_23 {
+  background: black;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_24 {
+  background: #1b9c37;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_25 {
+  background: #3d3d29;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_26 {
+  background: #9c8616;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_27 {
+  background: #592c2c;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
+.o_planning_progress_gantt_28 {
+  background: #6c777f;
+  display: block;
+  width: 0%;
+  opacity: 0.15;
+}
+
