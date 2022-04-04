@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+            <Invoice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+                <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+                <cbc:ID>INV/2021/04/0003</cbc:ID>
+                <cbc:IssueDate>2021-04-08</cbc:IssueDate>
+                <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+                
+                <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+                <cac:AccountingSupplierParty>
+            <cac:Party>
+                <cbc:WebsiteURI>http://www.beexample.com</cbc:WebsiteURI>
+                <cac:PartyName>
+                    <cbc:Name>BE Company CoA</cbc:Name>
+                </cac:PartyName>
+                <cac:Language>
+                    <cbc:LocaleCode>en_US</cbc:LocaleCode>
+                </cac:Language>
+                <cac:PostalAddress>
+                    <cbc:StreetName>1021 Sint-Bernardsesteenweg</cbc:StreetName>
+                    
+                    <cbc:CityName>Antwerpen</cbc:CityName>
+                    <cbc:PostalZone>2660</cbc:PostalZone>
+                    
+                    
+                    <cac:Country>
+                        <cbc:IdentificationCode>BE</cbc:IdentificationCode>
+                        <cbc:Name>Belgium</cbc:Name>
+                    </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyTaxScheme>
+                    <cbc:RegistrationName>BE Company CoA</cbc:RegistrationName>
+                    <cbc:CompanyID>BE0246697724</cbc:CompanyID>
+                    <cac:TaxScheme>
+                        <cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</cbc:ID>
+                    </cac:TaxScheme>
+                </cac:PartyTaxScheme>
+                <cac:Contact>
+                    <cbc:Name>BE Company CoA</cbc:Name>
+                    <cbc:Telephone>+32 470 12 34 56</cbc:Telephone>
+                    <cbc:ElectronicMail>info@company.beexample.com</cbc:ElectronicMail>
+                </cac:Contact>
+            </cac:Party>
+        </cac:AccountingSupplierParty>
+                <cac:AccountingCustomerParty>
+            <cac:Party>
+                <cbc:WebsiteURI>http://www.deco-addict.com</cbc:WebsiteURI>
+                <cac:PartyName>
+                    <cbc:Name>Deco Addict</cbc:Name>
+                </cac:PartyName>
+                <cac:Language>
+                    <cbc:LocaleCode>en_US</cbc:LocaleCode>
+                </cac:Language>
+                <cac:PostalAddress>
+                    <cbc:StreetName>77 Santa Barbara Rd</cbc:StreetName>
+                    
+                    <cbc:CityName>Pleasant Hill</cbc:CityName>
+                    <cbc:PostalZone>94523</cbc:PostalZone>
+                    <cbc:CountrySubentity>California</cbc:CountrySubentity>
+                    <cbc:CountrySubentityCode>CA</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode>US</cbc:IdentificationCode>
+                        <cbc:Name>United States</cbc:Name>
+                    </cac:Country>
+                </cac:PostalAddress>
+                
+                <cac:Contact>
+                    <cbc:Name>Deco Addict</cbc:Name>
+                    <cbc:Telephone>+32 10 588 558</cbc:Telephone>
+                    <cbc:ElectronicMail>info@agrolait.com</cbc:ElectronicMail>
+                </cac:Contact>
+            </cac:Party>
+        </cac:AccountingCustomerParty>
+                <cac:PaymentMeans>
+                    <cbc:PaymentMeansCode listID="UN/ECE 4461">31</cbc:PaymentMeansCode>
+                    <cbc:InstructionID>+++000/0000/01818+++</cbc:InstructionID>
+                    <cbc:PaymentDueDate>2021-04-08</cbc:PaymentDueDate>
+                    
+                </cac:PaymentMeans>
+                
+                
+                <cac:LegalMonetaryTotal>
+                    <cbc:LineExtensionAmount currencyID="EUR">525.00</cbc:LineExtensionAmount>
+                    <cbc:TaxExclusiveAmount currencyID="EUR">525.00</cbc:TaxExclusiveAmount>
+                    <cbc:TaxInclusiveAmount currencyID="EUR">525.00</cbc:TaxInclusiveAmount>
+                    <cbc:PrepaidAmount currencyID="EUR">0.00</cbc:PrepaidAmount>
+                    <cbc:PayableAmount currencyID="EUR">525.00</cbc:PayableAmount>
+                </cac:LegalMonetaryTotal>
+                
+            <cac:InvoiceLine>
+                <cbc:ID>42</cbc:ID>
+                
+                <cbc:InvoicedQuantity>5.0</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">450.00</cbc:LineExtensionAmount>
+                
+                <cac:Item>
+                    <cbc:Description>[FURN_8999] Three-Seat Sofa, Three Seater Sofa with Lounger in Steel Grey Colour</cbc:Description>
+                    <cbc:Name>Three-Seat Sofa</cbc:Name>
+                    <cac:SellersItemIdentification>
+                        <cbc:ID>FURN_8999</cbc:ID>
+                    </cac:SellersItemIdentification>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">90.00</cbc:PriceAmount>
+                </cac:Price>
+            </cac:InvoiceLine>
+        
+            <cac:InvoiceLine>
+                <cbc:ID>43</cbc:ID>
+                
+                <cbc:InvoicedQuantity>5.0</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">75.00</cbc:LineExtensionAmount>
+                
+                <cac:Item>
+                    <cbc:Description>[FURN_8220] Four Person Desk, Four person modern office workstation</cbc:Description>
+                    <cbc:Name>Four Person Desk</cbc:Name>
+                    <cac:SellersItemIdentification>
+                        <cbc:ID>FURN_8220</cbc:ID>
+                    </cac:SellersItemIdentification>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">15.00</cbc:PriceAmount>
+                </cac:Price>
+            </cac:InvoiceLine>
+        
+            </Invoice>
+        

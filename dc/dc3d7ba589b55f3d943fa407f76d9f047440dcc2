@@ -1,0 +1,33 @@
+
+@media all and (display-mode: standalone) {
+  #wrapwrap.event #top,
+#wrapwrap.event #bottom {
+    display: none;
+  }
+}
+
+#wrapwrap.event .o_pwa_install_banner {
+  position: fixed;
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-top: 1px solid #E9ECEF;
+  box-shadow: 0 -0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  font-size: 1rem;
+  z-index: 1070;
+}
+
+#wrapwrap.event .o_pwa_install_banner .o_btn_close {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+#wrapwrap.event .o_pwa_install_banner .o_btn_install {
+  margin-left: auto;
+}
+

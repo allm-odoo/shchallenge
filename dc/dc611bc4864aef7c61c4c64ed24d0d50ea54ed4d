@@ -1,0 +1,94 @@
+
+.o_wevent_event .o-tw-container {
+  /** TODO AWA
+    * The following rules will allow the first col-4 to take
+    * the full available width in mobile (= up to md breakpoint).
+    * Because it simply cannot fit all the content in a smaller view.
+    * This should be cleaned in master and implemented with an appropriate
+    * combination of col-12 / col-md-4 / col-md-none.
+    *
+    * Further customization is also made to have a pixel perfect wall
+    * that renders according to the "website event" style.
+    */
+}
+
+.o_wevent_event .o-tw-container .o-tw-cover {
+  display: none !important;
+}
+
+.o_wevent_event .o-tw-container > .navbar {
+  background-color: transparent !important;
+  padding-bottom: 0px;
+}
+
+.o_wevent_event .o-tw-container > .navbar > .container-fluid {
+  padding: 0px;
+}
+
+.o_wevent_event .o-tw-container .container .o-tw-toggle, .o_wevent_event .o-tw-container .row.container-fluid .o-tw-toggle, .o_wevent_event .o-tw-container .o_container_small .o-tw-toggle {
+  margin-left: 0px;
+}
+
+.o_wevent_event .o-tw-container .container .o-tw-toggle:first-of-type, .o_wevent_event .o-tw-container .row.container-fluid .o-tw-toggle:first-of-type, .o_wevent_event .o-tw-container .o_container_small .o-tw-toggle:first-of-type {
+  display: none !important;
+}
+
+.o_wevent_event .o-tw-container .row.container-fluid {
+  margin-bottom: 0px !important;
+}
+
+@media (max-width: 575px) {
+  .o_wevent_event .o-tw-container .row.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.o_wevent_event .o-tw-container .row.container-fluid .col-4:nth-child(1) {
+  flex: 1;
+  max-width: 100%;
+}
+
+.o_wevent_event .o-tw-container .row.container-fluid .col-4:nth-child(2), .o_wevent_event .o-tw-container .row.container-fluid .col-4:nth-child(3) {
+  display: none;
+}
+
+.o_wevent_event .o-tw-container .row.container-fluid .col-4:nth-child(2) {
+  margin-top: 0px !important;
+}
+
+@media (min-width: 768px) {
+  .o_wevent_event .o-tw-container .row.container-fluid .col-4:nth-child(1) {
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+  }
+  .o_wevent_event .o-tw-container .row.container-fluid .col-4:nth-child(2) {
+    display: block;
+  }
+}
+
+.o_wevent_event .o-tw-container .row.container-fluid .o-tw-hashtag {
+  padding: 0px;
+}
+
+.o_wevent_event .o-tw-container .row.container-fluid .o-tw-hashtag h4 {
+  font-size: 1rem;
+  color: #6C757D;
+  margin-bottom: 0px;
+}
+
+.o_wevent_event .o-tw-container .row.container-fluid .o-tw-hashtag label {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  color: #3aadaa;
+  margin-bottom: 0px;
+}
+
+.o_wevent_event .o-tw-container .o-tw-tweet span {
+  visibility: hidden;
+}
+
+.o-tw-view-live .o_wevent_event > .navbar {
+  display: none;
+}
+
