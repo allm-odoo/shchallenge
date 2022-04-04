@@ -1,0 +1,9 @@
+
+.o_portal_security_body #new-password-group {
+  position: relative;
+}
+
+.o_portal_security_body #new-password-group meter {
+  bottom: calc(calc(1.5em + 0.5rem + 2px) / 2 - 7px);
+}
+
